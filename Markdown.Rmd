@@ -1,0 +1,63 @@
+---
+title: "Practice Quiz 5"
+author: "Mackenzie Seasons"
+date: '2016-11-13'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**PART 1: Single Regressions**
+
+
+***Does conscientiousness contribute to the prediction of performance beyond GMA?***
+
+Conscientiousness accounted for an additional 10% of the variance in job performance beyond GMA alone, sr2 = .10, 95% *CI* [.05, .14]. When considering GMA alone, the variance accounted for was 26%, R2 = .26, 95% *CI* [.20, .32]. When considering GMA and conscientiousness together, the total variance accounted for was 36%, *R2* = .36, 95% *CI* [.29, .41], *F* (2, 497) = 137.5, *p* < .001. This indicates that conscientiousness does contribute to the prediction of job performance beyond GMA.
+
+***Do assessment ratings contribute to the prediction of performance beyond GMA?***
+
+Assessment ratings accounted for an additional 2% of the variance in job performance beyond GMA alone, sr2 = .02, 95% *CI* [-.00, .04]. When considering GMA alone, the variance accounted for was 26%, R2 = .26, 95% *CI* [.20, .32]. When considering GMA and conscientiousness together, the total variance accounted for was 28%, *R2* = .28, 95% *CI* [.21, .34], *F* (2, 497) = 95.56, *p* < .001. This indicates that assessment ratings do contribute to the prediction of job performance beyond GMA.
+
+***Do graphology ratings contribute to the prediction of performance beyond GMA?***
+Graphology ratings did not account for any additional variance in job performance beyond GMA alone, sr2 = .00, 95% *CI* [-.00, .00]. When considering GMA alone, the variance accounted for was 26%, R2 = .26, 95% *CI* [.20, .32]. When considering GMA and conscientiousness together, the total variance accounted for was 26%, *R2* = .26, 95% *CI* [.20, .32], *F* (2, 497) = 87.54, *p* < .6. This indicates that graphology ratings do not contribute to the prediction of job performance beyond GMA.
+
+***Which additional predictor would you use?***
+Conscientiousness is the additional predictor I would use.
+
+
+**PART 2: Do The Same Thing With Two-Block Regressions**
+
+
+***Question 1***
+
+Conscientiousness accounted for an additional 10% of the variance in job performance beyond GMA alone, delta R2 = .10, 95% *CI* [.05, .14]. When considering GMA alone, the variance accounted for was 26%, R2 = .26, 95% *CI* [.20, .32]. When considering GMA and conscientiousness together, the total variance accounted for was 36%, *R2* = .36, 95% *CI* [.29, .41], *F* (2, 497) = 137.5, *p* < .001. This indicates that conscientiousness does contribute to the prediction of job performance beyond GMA.
+
+***Question 2***
+
+Assessment ratings accounted for an additional 2% of the variance in job performance beyond GMA alone, delta R2 = .02, 95% *CI* [-.00, .04]. When considering GMA alone, the variance accounted for was 26%, R2 = .26, 95% *CI* [.20, .32]. When considering GMA and conscientiousness together, the total variance accounted for was 28%, *R2* = .28, 95% *CI* [.21, .34], *F* (2, 497) = 95.56, *p* < .001. This indicates that assessment ratings do contribute to the prediction of job performance beyond GMA.
+
+***Question 3***
+
+Graphology ratings did not account for any additional variance in job performance beyond GMA alone, delta R2 = .00, 95% *CI* [-.00, .00]. When considering GMA alone, the variance accounted for was 26%, R2 = .26, 95% *CI* [.20, .32]. When considering GMA and conscientiousness together, the total variance accounted for was 26%, *R2* = .26, 95% *CI* [.20, .32], *F* (2, 497) = 87.54, *p* < .6. This indicates that graphology ratings do not contribute to the prediction of job performance beyond GMA.
+
+
+**PART 3: Confidence Intervals and Prediction Intervals**
+
+
+***Using GMA and conscientiousness, what is the CI for predicted performance scores at the mean GMA and mean conscientiousness?***
+
+Mean GMA is *M* = 100.00, *SD* = 15.10, and the mean conscientiousness score is *M* = 120.00, *SD* = 8.30. This indicates that the best estimate of the predicted population mean for job performance is *M*= 101.00, 95% *CI* [100.28, 101.72].
+
+***Using GMA and conscientiousness, what is the PI for predicted performance scores at the mean GMA and mean conscientiousness?***
+
+Mean GMA is *M* = 100.00, *SD* = 15.10, and the mean conscientiousness score is *M* = 120.00, *SD* = 8.30. This indicates that the best estimate of the predicted values for future studies is 95% *CI* [84.87, 117.13].
+
+
+
+
+
+
+
+
